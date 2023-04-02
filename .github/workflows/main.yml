@@ -23,7 +23,7 @@ jobs:
           npm run build
       
       - name: copy files
-        uses: borisbreuer/scp-deploy-it@v0.0.3
+        uses: borisbreuer/scp-deploy-it@latest
 #        uses: siva1024/scp-deployer@latest
         with:
           host: ${{ secrets.SSH_HOST }}
